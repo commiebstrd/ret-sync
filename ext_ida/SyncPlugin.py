@@ -38,9 +38,11 @@ except:
     print "[-] please make sure python's argparse module is available\n%s" % repr(sys.exc_info())
     sys.exit(0)
 
+import idac
 import idaapi
 import idautils
 import ida_graph
+import ida_kernwin
 import ida_hexrays
 from idaapi import PluginForm
 
